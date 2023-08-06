@@ -1,7 +1,7 @@
 # form-register
  Este projeto é um formulário de login e cadastro simples, desenvolvido para demonstrar a funcionalidade básica de autenticação e registro de usuários. Ainda em desenvolvimento.
 
-a
+
 ## Screenshots
 
 Tela Login![image](https://github.com/davidmello04/dragonballz-memory-game/assets/102268159/ed8ab99e-01b6-47db-b82d-e64cbd04e580)
