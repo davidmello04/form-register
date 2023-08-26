@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'login/css/global.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <form action="{% url 'login_user' %}" method="post" class="form-login">{% csrf_token %}
+            <h1><span class="g">L</span><span class="g">o</span><span class="g">g</span><span class="g">i</span><span class="g">n</span>
+            </h1>
+            <hr>
+            <div class="input">
+                <i class="fas fa-envelope"></i>
+                <input type="text" name="email" placeholder="E-mail" id="email">
+            </div>
+            <div class="input">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="senha" placeholder="*******" id="password">
+            </div>
+            <button type="submit" class="btn btn-login" id="button-form">Login</button>
+        </form>
+        <form class="login-bottom" action="{% url 'cadastro' %}">
+            <p>Ainda não possui uma conta?</p>
+            <button class="btn btn-bottom">Cadastrar-se</button>
+        </form>
+    </div>
+   
+    
+</body>
+</html>
