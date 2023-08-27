@@ -17,5 +17,5 @@ Tela Cadastro![image](https://github.com/davidmello04/dragonballz-memory-game/as
 
 ## Autor
 David Bezerra de Melo [davidmello04](https://github.com/davidmello04) - Criador do form-register.
-
+Joelson Justino [JustinoJoelson](https://github.com/JustinoJoelson) - criador da logica com Python com framework Django
 Contribuições são bem-vindas!
